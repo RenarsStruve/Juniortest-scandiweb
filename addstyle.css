@@ -1,0 +1,93 @@
+body, h1, p, label, select, input {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    width: 90%;
+    min-height: 100vh;
+}
+
+.header {
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 90%; 
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px solid #333; 
+    z-index: 1;
+}
+
+.header .title h1 {
+    margin: 0;
+}
+
+
+.footer {
+    width: 90%;
+    background-color: white;
+    margin-left: 50px;
+    position: fixed;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    padding: 10px;
+    border-top: 2px solid #333;
+    z-index: 1;
+}
+
+
+.main-content {
+    margin-top: 120px;
+    margin-left: 3%;
+    width: 90%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.add-button {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #000000; 
+    border: 1px solid #000000; 
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 30px;
+    font-size: 16px;
+}
+
+.cancel-button {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #000000; 
+    border: 1px solid #000000; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#productType {
+    margin-bottom: 20px;
+}
+
+#product_form input,
+#product_form select {
+    margin-bottom: 20px;
+}
+
+#product_form #price {
+    margin-bottom: 60px; 
+}
